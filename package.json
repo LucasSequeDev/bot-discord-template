@@ -1,0 +1,35 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/index.cjs",
+    "dev": "tsx src/index.ts",
+    "build": "tsup src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "18.14.6",
+    "dotenv": "10.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.2.0",
+    "nodemon": "2.0.21",
+    "tsup": "6.6.3",
+    "tsx": "3.12.3",
+    "typescript": "4.9.5"
+  },
+  "engines": {
+    "node": ">16 <18"
+  },
+  "dependencies": {
+    "axios": "0.24.0",
+    "discord.js": "13.5.0"
+  }
+}
